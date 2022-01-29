@@ -2,7 +2,7 @@ const openBtn = document.querySelector(".open");
 const modalContainer = document.querySelector(".modal-container");
 const closeBtn = document.querySelector(".modal-btn");
 
-openBtn.addEventListener("click", function () {
+openBtn.addEventListener("click", () => {
     modalContainer.classList.add("show");
 });
 
